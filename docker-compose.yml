@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  trainingagent:
+    build: .
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+    ports:
+      - "8080:80"
+    restart: unless-stopped
