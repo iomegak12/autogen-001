@@ -1,0 +1,8 @@
+autogen
+autogen-agentchat
+autogen-ext
+python-dotenv
+openai
+aiohttp
+mcp
+autogen_ext[mcp]

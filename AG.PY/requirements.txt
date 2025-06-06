@@ -10,3 +10,5 @@ aiohttp
 aiofiles
 PyYAML
 streamlit
+chromadb
+pysqlite3-binary
