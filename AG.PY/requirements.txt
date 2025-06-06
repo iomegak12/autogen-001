@@ -1,0 +1,12 @@
+autogen
+autogen-agentchat
+autogen-ext
+python-dotenv
+ipykernel
+openai
+fastapi
+uvicorn
+aiohttp
+aiofiles
+PyYAML
+streamlit

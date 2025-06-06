@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  agentic-ai:
+    build: .
+    container_name: agentic-ai
+    env_file:
+      - .env
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./uploads:/app/uploads
+    ports:
+      - "8000:8000"
+    command: uv pip run src/main.py
