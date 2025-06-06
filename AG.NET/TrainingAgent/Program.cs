@@ -20,6 +20,7 @@ public static class MainClass
             Console.WriteLine("12. SKPluginsInAutoGenMiddleware");
             Console.WriteLine("13. BraveSearchSKPluginInAutoGenAgentDemo");
             Console.WriteLine("14. SequentialGroupChatDemo");
+            Console.WriteLine("15. ReActAgentsDemo");
 
             Console.WriteLine("0. Exit");
             Console.Write("Enter your choice (1-7): ");
@@ -71,6 +72,9 @@ public static class MainClass
                         break;
                     case "14":
                         await SequentialGroupChatDemo.RunAsync();
+                        break;
+                    case "15":
+                        await ReActAgentsDemo.RunAsync();
                         break;
                     default:
                         Console.WriteLine("Invalid option selected.");
